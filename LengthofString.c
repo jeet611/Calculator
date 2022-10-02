@@ -2,13 +2,13 @@
 #include <string.h>
 int main()
 {
-  String a[100];
+  char a[100];
   int length;
 
   printf("Enter a string to calculate its length\n");
-  getstring(a);
+  gets(a);
 
-  length = stringlen(a);
+  length = strlen(a);
 
   printf("Length of the string = %d\n", length);
 
